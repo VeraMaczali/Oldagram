@@ -71,9 +71,3 @@ header img {
   margin: 5px 0;
   font-size: 13px;
 }
-
-@media only screen and (max-width: 450px) {
-  .container {
-    width: 95%;
-  }
-}
