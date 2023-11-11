@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ededed;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.container {
+  color: #000000;
+  width: 375px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: 700;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #ffffff;
+}
+header img {
+  width: 127px;
+}
+
+.avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.card {
+  margin: 10px 0;
+  background-color: #ffffff;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+}
+
+.card-header .name {
+  margin: 0;
+  font-size: 13px;
+}
+
+.card-header .location {
+  margin: 0;
+  font-size: 12px;
+}
+
+.post {
+  width: 100%;
+}
+.comment-section {
+  padding: 15px 10px;
+}
+.buttons img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.buttons img:hover {
+  opacity: 0.6;
+}
+.comment-section p {
+  margin: 5px 0;
+  font-size: 13px;
+}
